@@ -12,7 +12,15 @@ public class SeleniumTest
       System.out.println("BrowserAutomation");
    }
 
-  
+   @Test
+   public void WebAutomation()
+   {
+
+      System.out.println("WebAutomation");
+   }
+
+
+
    @Test
    public void ElementsUI()
    {
