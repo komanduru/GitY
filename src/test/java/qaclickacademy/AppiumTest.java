@@ -11,12 +11,22 @@ public class AppiumTest
       System.out.println("NativeApp");
     }
 
+    @Test
+    public void WebApp()
+    {
+        System.out.println("WebApp");
+    }
+
 
     @Test
     public void IOSApp()
     {
       System.out.println("IOSApp");
     }
+
+
+
+
 
 
 }
